@@ -11,5 +11,9 @@ public:
 		cout << "Orang Dibuat\n" << endl;
 	}
 
+	~orang() {
+		cout << "Orang Dihapus\n" << endl;
+	}
+
 
 };
