@@ -8,4 +8,8 @@ public:
 	string nama;
 
 	vector<dokter*> daftar_pasien;
+	pasien(string pNama) :nama(pNama) {
+		cout << "pasien \"" << nama << "\" ada\n";
+	}
+
 };
