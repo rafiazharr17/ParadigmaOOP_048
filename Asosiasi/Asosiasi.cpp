@@ -7,7 +7,7 @@ class pasien {
 public:
 	string nama;
 
-	vector<dokter*> daftar_pasien;
+	vector<dokter*> daftar_dokter;
 	pasien(string pNama) :nama(pNama) {
 		cout << "pasien \"" << nama << "\" ada\n";
 	}
@@ -35,3 +35,8 @@ public:
 	void tambahPasien(pasien*);
 	void cetakPasien();
 };
+
+void pasien::tambahDokter(dokter* pDokter) {
+	daftar_dokter.push_back(pDokter);
+}
+
