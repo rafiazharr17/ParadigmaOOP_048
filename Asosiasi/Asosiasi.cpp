@@ -19,3 +19,9 @@ public:
 	void tambahDokter(dokter*);
 	void cetakDokter();
 };
+
+class dokter {
+public:
+	string nama;
+
+};
