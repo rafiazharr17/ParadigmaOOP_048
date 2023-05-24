@@ -34,5 +34,8 @@ class pelajar : public orang {
 		cout << "Pelajar Dihapus\n" << endl;
 	}
 
+	string perkenalan() {
+		return "Hallo, nama saya" + nama + "dari sekolah" + sekolah + "\n\n";
+	}
 
 };
