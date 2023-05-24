@@ -33,5 +33,5 @@ public:
 	}
 
 	void tambahPasien(pasien*);
-
+	void cetakPasien();
 };
