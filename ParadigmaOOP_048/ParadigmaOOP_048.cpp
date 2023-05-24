@@ -24,4 +24,11 @@ public:
 class pelajar : public orang {
 	string sekolah;
 
+	pelajar(string pNama, string pSekolah) :
+		orang(pNama),
+		sekolah(pSekolah) {
+		cout << "Pelajar Dibuat\n" << endl;
+	}
+
+
 };
